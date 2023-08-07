@@ -4,6 +4,11 @@ plugins {
 }
 
 android {
+    buildFeatures{
+        viewBinding true
+    }
+
+
     namespace 'com.thuctran.downloadservice'
     compileSdk 33
 
